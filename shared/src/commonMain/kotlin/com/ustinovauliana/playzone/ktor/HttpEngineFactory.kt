@@ -1,4 +1,4 @@
-package com.ustinovauliana.playzone
+package com.ustinovauliana.playzone.ktor
 
 import io.ktor.client.engine.HttpClientEngineConfig
 import io.ktor.client.engine.HttpClientEngineFactory

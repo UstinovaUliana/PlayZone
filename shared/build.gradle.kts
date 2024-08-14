@@ -40,15 +40,18 @@ kotlin {
             implementation(libs.ktor.logging)
 
             implementation(libs.kodein)
+            implementation(libs.sqldelight.core)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
         }
         androidMain.dependencies {
             implementation(libs.ktor.android)
+            implementation(libs.sqldelight.android)
         }
         iosMain.dependencies {
             implementation(libs.ktor.ios)
+            implementation(libs.sqldelight.ios)
 
         }
     }
